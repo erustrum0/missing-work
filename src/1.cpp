@@ -2,7 +2,7 @@
 
 int main() {
     int num = 1;
-    int row = 4;
+    int row;
     std::cout << "How deep will the pyramid be? ";
     std::cin >> row;
     std::cout << "Building...\n\n\n";
@@ -13,4 +13,5 @@ int main() {
         }
         std::cout << std::endl;
     }
+    return 0;
 }
