@@ -6,7 +6,6 @@ int main() {
     std::cout << "How deep will the pyramid be? ";
     std::cin >> num;
     std::cout << "Building...\n\n\n";
-    num--; //this might be cursed
 
     //main loop
     for (int i=1; i<=num; i++) {
