@@ -10,6 +10,7 @@ int main() {
     //main loop
     for (int i=0; i<=count; ++i) {
         std::cout << i;
+        
     }
     return 0;
 }
